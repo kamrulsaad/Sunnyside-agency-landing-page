@@ -9,19 +9,41 @@
 
 :root{
     --frauces: 'Fraunces';
-    --barlow: 'Barlow';
 }
 
 header{
     background-image: url(../images/desktop/image-header.jpg);
     background-repeat: no-repeat;
+    background-position: center bottom;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-.header-text{
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
+.big-text{
+    font-size: 3.5rem;
+    font-family: var(--frauces);
+    letter-spacing: 10px;
     font-weight: 900;
+}
+
+.frauces{
+    font-family: var(--frauces);
+}
+
+.left{
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.normal-sections{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    min-height: 80vh;
 }
