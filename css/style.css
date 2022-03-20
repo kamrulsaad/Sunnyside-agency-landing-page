@@ -47,3 +47,16 @@ header{
     grid-template-columns: repeat(2,1fr);
     min-height: 80vh;
 }
+
+.testimonials{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer{
+    background-color: hsl(168, 34%, 41%);
+}
